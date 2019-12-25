@@ -1,0 +1,51 @@
+{
+  "name": "rbfileupload",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --prod",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "update:packages": "node wipe-dependencies.js && rm -rf node_modules && npm update --save-dev && npm update --save"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^8.2.14",
+    "@angular/common": "^8.2.14",
+    "@angular/compiler": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "@angular/forms": "^8.2.14",
+    "@angular/http": "^7.2.1",
+    "@angular/platform-browser": "^8.2.14",
+    "@angular/platform-browser-dynamic": "^8.2.14",
+    "@angular/router": "^8.2.14",
+    "core-js": "*",
+    "rxjs": "^6.3.3",
+    "tslib": "^1.9.0",
+    "zone.js": "*"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^0.803.21",
+    "@angular/cli": "*",
+    "@angular/compiler-cli": "*",
+    "@angular/language-service": "*",
+    "@types/jasmine": "*",
+    "@types/jasminewd2": "*",
+    "@types/node": "*",
+    "codelyzer": "*",
+    "jasmine-core": "*",
+    "jasmine-spec-reporter": "*",
+    "karma": "*",
+    "karma-chrome-launcher": "*",
+    "karma-coverage-istanbul-reporter": "*",
+    "karma-jasmine": "*",
+    "karma-jasmine-html-reporter": "*",
+    "protractor": "*",
+    "ts-node": "*",
+    "tslint": "*",
+    "typescript": "3.5.3"
+  }
+}

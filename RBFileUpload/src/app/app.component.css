@@ -1,0 +1,25 @@
+.fileupload {
+ /* padding: 10px;
+  margin: 5%;
+  border: 1px solid; */
+  text-align: center;
+}
+
+.outputtable {
+ margin: 5%; 
+  border: 1px solid #73AD21; 
+
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+.outputdiv
+{
+/*  text-align: center;*/
+  margin-top: 2%;
+}
